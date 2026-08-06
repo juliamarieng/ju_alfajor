@@ -6,7 +6,7 @@ Site funcional para micro-empresa de alfajor
 
 ## 📌 Acesse
 
-🔗 **Acesse o projeto online:** [https://seu-usuario.github.io/nome-do-repositorio/](https://seu-usuario.github.io/nome-do-repositorio/)
+🔗 **Acesse o projeto online:** [[https://seu-usuario.github.io/nome-do-repositorio/](https://seu-usuario.github.io/nome-do-repositorio/)](https://juliamarieng.github.io/ju_alfajor/)
 
 ---
 
