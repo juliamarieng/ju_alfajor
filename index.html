@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ju Alfajor | Doces Artesanais</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+
+    <div class="particula"></div>
+<nav class="navegacao">
+    <a href="#inicio" class="logo-nav">
+        <span>Ju Alfajor</span>
+    </a>
+
+    <ul class="menu">
+        <li><a href="#inicio" class="menu-link">Início</a></li>
+        <li><a href="#sobre" class="menu-link">Sobre nós</a></li>
+        <li><a href="#projetos" class="menu-link">Sabores</a></li>
+        <li><a href="#contatos" class="menu-link">Fazer pedido</a></li>
+    </ul>
+</nav>
+
+    <main id="inicio" class="cabecalho">
+        <img src="img/ca0c8e46-5b49-4b55-bedc-8df72018a4da.jpg" alt="Logo Ju Alfajor" class="foto-perfil">
+        <h1>Ju Alfajor</h1>
+        <p class="cabecalho-sub-titulo">O Doce Perfeito para Seu Dia</p> 
+        
+        <div class="hero-botoes">
+            <a href="#projetos" class="btn-hero btn-secundario">Ver Sabores</a>
+            <a href="#contatos" class="btn-hero btn-principal">Fazer Pedido</a>
+        </div>
+    </main>
+
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Alfajores artesanais com receitas cheias de carinho</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo"> 
+                Na Ju Alfajor, cada doce é produzido de forma 100% artesanal, 
+                unindo uma massa macia e saborosa a recheios generosos e cobertura de qualidade. 
+                Com opções que vão desde os sabores mais clássicos aos mais amados, 
+                nossos alfajores são feitos com ingredientes selecionados e muito carinho para adoçar a sua rotina, 
+                acompanhar uma pausa no dia ou presentear quem você gosta.
+            </p>
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Nossos sabores</h2>
+
+        <div class="projetos-caixa">
+
+            <div class="projetos-card">
+                <img src="img/074e3e8e-6d17-493f-951f-dc3a36eed335.jpg" alt="Alfajor Brigadeiro" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Brigadeiro</h3>
+                    <p class="paragrafo-projetos">Um clássico de Brigadeiro</p>
+                    <p class="preco-projeto">Valor Unitário: R$ 5,00</p>
+                </div>
+            </div>
+        
+            <div class="projetos-card">
+                <img src="img/5d14a9ce-cfa2-48da-ab75-94688226fc9e.jpg" alt="Alfajor Docinho de Coco" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Docinho de coco</h3>
+                    <p class="paragrafo-projetos">Um clássico de Beijinho</p>
+                    <p class="preco-projeto">Valor Unitário: R$ 5,00</p>
+                </div>
+            </div>
+
+            <div class="projetos-card">
+                <img src="img/aa49afb9-9e05-41ee-8ea4-ab2bdc7b55c1.jpg" alt="Alfajor Nutella" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Nutella</h3>
+                    <p class="paragrafo-projetos">Para amantes de Creme de Avelã</p>
+                    <p class="preco-projeto">Valor Unitário: R$ 6,00</p>
+                </div>
+            </div>
+
+            <div class="projetos-card">
+                <img src="img/5542ce8b-18b9-4319-88b3-2f9b385e6e6f.jpg" alt="Alfajor Paçoca" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Paçoca</h3>
+                    <p class="paragrafo-projetos">Para quem é viciado em Amendoim</p>
+                    <p class="preco-projeto">Valor Unitário: R$ 5,00</p>
+                </div>
+            </div>
+
+            <div class="projetos-card">
+                <img src="img/71d1b07f-4b34-45d1-ae2f-de0fb13667f5.jpg" alt="Alfajor Brigadeiro de Nutella" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Brigadeiro de Nutella</h3>
+                    <p class="paragrafo-projetos">Brigadeiro + Nutella</p>
+                    <p class="preco-projeto">Valor Unitário: R$ 5,00</p>
+                </div>
+            </div>
+
+            <div class="projetos-card">
+                <img src="img/ae49504f-79f8-4d78-b58e-d48a517eb80e.jpg" alt="Alfajor Leite Ninho" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Leite Ninho</h3>
+                    <p class="paragrafo-projetos">O MELHOR, Leite Ninho</p>
+                    <p class="preco-projeto">Valor Unitário: R$ 6,00</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulo">Faça seu pedido!</h2>
+
+        <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
+            <div class="grupo-form">
+                <input placeholder="Seu Nome" class="campo-form" id="nome" required>
+            </div>
+
+            <div class="grupo-form">
+                <textarea class="campo-form" placeholder="Qual sabor e quantidade você deseja?" rows="5" id="menssagem" required></textarea>
+            </div>
+
+            <button type="submit" class="botao-form">Enviar via WhatsApp 📲</button>
+        </form>
+    </section>
+
+    <script>
+        function enviarWhats(event){
+            event.preventDefault();
+
+            const nome = document.getElementById('nome').value;
+            const menssagem = document.getElementById('menssagem').value;
+            const telefone = '556196352399';
+
+            const texto = `Olá! Me chamo ${nome}. ${menssagem}`;
+            const msgformatada = encodeURIComponent(texto);
+
+            const url = `https://wa.me/${telefone}?text=${msgformatada}`;
+
+            window.open(url, '_blank');
+        }
+    </script>
+</body>
+</html>
