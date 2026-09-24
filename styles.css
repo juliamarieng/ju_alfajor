@@ -10,13 +10,13 @@ html{
 }
 
 :root{
-    --primaria: #d4af37;
-    --segundaria: #8b5a2b;
+    --primaria: #e9c756;
+    --segundaria: #8e633a;
     --escuro: #4b2e0e;
     --maisEscuro: #2a1508;
     --claro: #f4eae1;
     --vidro: rgba(255, 255, 255, 0.12);
-    --whatsapp: #25d366;
+    --whatsapp: #e9b738;
 }
 
 body{
